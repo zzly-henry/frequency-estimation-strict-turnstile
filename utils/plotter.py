@@ -3,6 +3,7 @@ Plotting utilities for frequency estimation experiments.
 
 Generates publication-quality plots using matplotlib and seaborn.
 All functions save figures as PNG and PDF to the specified output directory.
+
 """
 
 import os
