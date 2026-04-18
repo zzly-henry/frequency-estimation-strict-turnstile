@@ -108,7 +108,7 @@ pip install -r requirements.txt
 
 ### 2. Place the MAWI trace file
 
-The user has already downloaded the MAWI Working Group Traffic Archive trace file: **202506181400.pcap**
+Downloaded the MAWI Working Group Traffic Archive trace file: **202506181400.pcap**
 
 Place it in the `data/` folder:
 
@@ -239,28 +239,40 @@ pip install dpkt   # for MAWI pcap parsing
 ---
 
 ## Citations
+## References
 
-1. **Misra-Gries Algorithm**:
-   Misra, J., & Gries, D. (1982). "Finding repeated elements." Science of Computer Programming, 2(2), 143-152.
+[1] Misra, J., & Gries, D. (1982). Finding repeated elements. Science of Computer Programming,
+    2(2), 143–152.
 
-2. **Space-Saving Algorithm**:
-   Metwally, A., Agrawal, D., & El Abbadi, A. (2005). "Efficient computation of frequent and top-k elements in data streams." ICDT 2005.
+[2] Metwally, A., Agrawal, D., & El Abbadi, A. (2005). Efficient computation of frequent and top-k
+    elements in data streams. International Conference on Database Theory (ICDT).
 
-3. **SpaceSaving± Family**:
-   Dimitropoulos, X., Hurley, P., & Kind, A. (2008). "Probabilistic lossy counting: An efficient algorithm for finding heavy hitters." ACM SIGCOMM CCR.
+[3] Cormode, G., & Muthukrishnan, S. (2005). An improved data stream summary: the count-min
+    sketch and its applications. Journal of Algorithms, 55(1), 58–75.
 
-4. **α-Bounded Deletion Property (L1 α-property)**:
-   Berinde, R., Indyk, P., Cormode, G., & Strauss, M. J. (2010). "Space-optimal heavy hitters with strong error bounds." ACM TODS, 35(4), 1-28.
+[4] Charikar, M., Chen, K., & Farach-Colton, M. (2004). Finding frequent items in data streams.
+    Theoretical Computer Science, 312(1), 3–15.
 
-5. **Count-Min Sketch**:
-   Cormode, G., & Muthukrishnan, S. (2005). "An improved data stream summary: the count-min sketch and its applications." Journal of Algorithms, 55(1), 58-75.
+[5] Berinde, R., Indyk, P., Cormode, G., & Strauss, M. J. (2010). Space-optimal heavy hitters with
+    strong error bounds. ACM Transactions on Database Systems (TODS), 35(4), 1–28.
 
-6. **Count-Sketch**:
-   Charikar, M., Chen, K., & Farach-Colton, M. (2004). "Finding frequent items in data streams." Theoretical Computer Science, 312(1), 3-15.
+[6] MAWI Working Group. MAWI Traffic Archive, Samplepoint-F (2025-06-18).
+    https://mawi.wide.ad.jp/mawi/
 
-7. **MAWI Working Group Traffic Archive**:
-   MAWI Working Group. "MAWI Traffic Archive, Samplepoint-F." https://mawi.wide.ad.jp/mawi/
+[7] Jayaram, R., & Woodruff, D. P. (2018). Data streams with bounded deletions. Proceedings of the
+    37th ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems (PODS),
+    341–354. (arXiv:1803.08777)
 
+[8] Zhao, F., Agrawal, D., El Abbadi, A., & Metwally, A. (2021). SpaceSaving±: An Optimal
+    Algorithm for Frequency Estimation and Frequent items in the Bounded Deletion Model.
+    Proceedings of the VLDB Endowment (PVLDB). (arXiv:2112.03462)
+
+[9] Shahout, R., & Mitzenmacher, M. (2024). Learning-Based Heavy Hitters and Flow Frequency
+    Estimation in Streams. arXiv preprint arXiv:2406.16270.
+
+[10] Zhao, F., Agrawal, D., El Abbadi, A., Mathieu, C., Metwally, A., & de Rougemont, M.
+     (2023). The SpaceSaving± Family of Algorithms for Data Streams with Bounded Deletions.
+     Proceedings of the ACM on Management of Data, 1(2), 1–26. (arXiv:2309.12623)
 ---
 
 ## License
