@@ -238,7 +238,6 @@ pip install dpkt   # for MAWI pcap parsing
 
 ---
 
-## Citations
 ## References
 
 [1] Misra, J., & Gries, D. (1982). Finding repeated elements. Science of Computer Programming,
